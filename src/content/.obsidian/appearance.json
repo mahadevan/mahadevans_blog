@@ -1,10 +1,12 @@
 {
-  "cssTheme": "Oxygen",
+  "cssTheme": "Ardoise",
   "showViewHeader": true,
   "showRibbon": false,
   "enabledCssSnippets": [
     "astro-modular-styling"
   ],
   "theme": "obsidian",
-  "accentColor": ""
+  "accentColor": "#ff9924",
+  "textFontFamily": "Source Serif 4",
+  "monospaceFontFamily": "0xProto"
 }
