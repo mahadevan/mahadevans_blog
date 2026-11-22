@@ -9,6 +9,8 @@
 		"ignoreUnknown": false,
 		"includes": [
 			"**",
+			"!**/src/content/.obsidian/**",
+			"!**/src/content/**/*.md",
 			"!**/src/**/*.css",
 			"!**/src/public/**/*",
 			"!**/dist/**/*",
