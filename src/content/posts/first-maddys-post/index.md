@@ -15,6 +15,6 @@ draft: true
 
 **I have written my first post here**
 
-*have fun, Thank you*
+*Have fun, Thank you*
 
 ---
