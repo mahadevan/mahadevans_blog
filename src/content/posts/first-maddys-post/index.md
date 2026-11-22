@@ -7,7 +7,7 @@ image: apples.jpg
 tags:
   - Blogging
 category: Postings
-draft: true
+draft: false
 ---
 # First Post
 
