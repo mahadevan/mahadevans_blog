@@ -24,7 +24,8 @@
       "creationMode": "folder",
       "indexFileName": "index",
       "ignoreSubfolders": false,
-      "enableUnderscorePrefix": false
+      "enableUnderscorePrefix": false,
+      "modifiedDateField": "updated"
     },
     {
       "id": "content-type-1795337178499-9mh8mvi5j",
@@ -32,7 +33,7 @@
       "folder": "spec",
       "linkBasePath": "/",
       "template": "---\ntitle: \"{{title}}\"\npublished: {{date}}\nupdated:\ndescription: \"\"\nimage: \"\"\ntags: []\ncategory: \"\"\ndraft: true\n---",
-      "enabled": true,
+      "enabled": false,
       "creationMode": "file",
       "indexFileName": "index",
       "ignoreSubfolders": false,
@@ -47,12 +48,14 @@
   },
   "showMdxFilesInExplorer": false,
   "processBackgroundFileChanges": true,
+  "externalNoteHandling": "prompt",
   "syncDraftDate": false,
   "draftDetectionMode": "property",
   "draftProperty": "",
   "draftLogic": "true-is-draft",
   "publishDateField": "",
   "renameOnTitleClick": false,
+  "showFolderNameAsInlineTitle": false,
   "updateModifiedDate": false,
   "modifiedDateField": ""
 }
