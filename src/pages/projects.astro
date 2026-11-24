@@ -1,0 +1,38 @@
+---
+import { Icon } from "astro-icon/components";
+import MainGridLayout from "../layouts/MainGridLayout.astro";
+---
+
+<MainGridLayout title="Projects" description="Things I'm building, including Mayaverse.">
+    <div class="card-base px-6 py-8 md:px-9">
+        <h1 class="text-3xl font-bold mb-3">Projects</h1>
+        <p class="text-black/70 dark:text-white/70 mb-8">
+            Things I'm building — some shipped, some still finding their shape.
+        </p>
+
+        <a href="https://github.com/mahadevan" target="_blank" rel="noreferrer"
+           class="group block rounded-2xl border border-[var(--line-divider)] p-5 transition hover:border-[var(--primary)]">
+            <div class="flex items-start justify-between gap-4">
+                <div>
+                    <h2 class="text-xl font-bold transition group-hover:text-[var(--primary)]">Mayaverse</h2>
+                    <p class="text-sm text-black/50 dark:text-white/50 mt-1">Independent game project · In development</p>
+                </div>
+                <Icon name="fa6-solid:arrow-up-right-from-square"
+                      class="text-black/30 dark:text-white/30 transition group-hover:text-[var(--primary)] mt-1" />
+            </div>
+            <p class="mt-4 text-black/70 dark:text-white/70">
+                An independent game project where I bring together systems engineering, interaction design,
+                and storytelling. Follow the build on GitHub.
+            </p>
+            <div class="flex flex-wrap gap-2 mt-4 text-sm">
+                <span class="rounded-md bg-black/5 dark:bg-white/10 px-2 py-1">Game development</span>
+                <span class="rounded-md bg-black/5 dark:bg-white/10 px-2 py-1">In progress</span>
+            </div>
+        </a>
+
+        <div class="mt-6 rounded-2xl border border-dashed border-[var(--line-divider)] p-5 text-black/50 dark:text-white/50">
+            More projects will appear here as they're ready to share. In the meantime, the
+            <a href="/" class="text-[var(--primary)] hover:underline">blog</a> is where I write about what I'm learning.
+        </div>
+    </div>
+</MainGridLayout>
