@@ -13,4 +13,4 @@ draft: false
 
 Project Mayaverse is a retro-futuristic noir adventure CRPG game which immerse you into a world of possibilities to experience and indulge.
 
-![[mayaverse-banner-01.jpg]]
+![Mayaverse banner](./mayaverse-banner-01.jpg)
